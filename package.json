@@ -4,8 +4,15 @@
   "description": "Gerador de senhas seguras automaticas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --open",
+    "lint": "eslint ./src",
+    "build": "vite build"
   },
-  "author": "naifa",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^4.0.0",
+    "vite": "^3.2.3"
+  },
+  "type": "module"
 }
